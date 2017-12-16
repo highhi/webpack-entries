@@ -1,0 +1,27 @@
+{
+  "name": "@highhi/webpack-entries",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "highhi",
+  "license": "MIT",
+  "keywords": [
+    "webpack",
+    "glob",
+    "entries"
+  ],
+  "scripts": {
+    "test": "mocha ./test",
+    "prettier": "prettier --write ./index.js"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "prettier": "^1.9.2"
+  },
+  "dependencies": {
+    "glob": "^7.1.2"
+  },
+  "prettier": {
+    "singleQuote": true
+  }
+}
