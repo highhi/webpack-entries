@@ -1,7 +1,6 @@
 'use stirct';
 const path = require('path');
 const glob = require('glob');
-const globBase = require('glob-base');
 
 module.exports = pattern => {
   if (typeof pattern !== 'string') {
