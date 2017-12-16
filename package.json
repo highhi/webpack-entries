@@ -10,6 +10,13 @@
     "glob",
     "entries"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/highhi/webpack-entries.git"
+  },
+  "bugs": {
+    "url": "https://github.com/highhi/webpack-entries/issues"
+  },
   "scripts": {
     "test": "mocha ./test",
     "prettier": "prettier --write ./index.js"
